@@ -1,0 +1,107 @@
+@media screen and (max-width: 450px) {
+  section > .container {
+    width: 100%;
+    margin: 0px;
+    border: 0px;
+    line-height: 1.5;
+    padding: 0 !important;
+  }
+  .img-cert {
+    width: 200px;
+  }
+  .banner {
+    min-height: 150px;
+  }
+  /*Chỉnh phần Tên vào giữa banner*/
+  .centered {
+    position: absolute;
+    color: #f7f7f7;
+    font-size: 1rem;
+    text-align: center;
+    top: 40%;
+    left: 40%;
+  }
+  .nav-bar_4,
+  .nav-bar_3,
+  .nav-bar_2,
+  .nav-bar_1 {
+    border-right: solid 1px #c2c2c2;
+  }
+  #course {
+    font-size: 14px;
+    margin: 0px;
+  }
+  .section-title {
+    padding-top: 20px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+  }
+  #target {
+    background: #f7f7f7;
+  }
+  #target p {
+    padding: 0 15px 25px 20px;
+  }
+  #info {
+    margin: 0px !important;
+  }
+  #personal-info {
+    padding: 0px !important;
+  }
+  .submit-email {
+    padding: 0px;
+    margin: 10px 0 20px 20px;
+  }
+  .icon-user-1,
+  .icon-lamp {
+    font-size: 17px;
+    color: #7d7d7d;
+    padding-left: 0px;
+    display: inline-block;
+  }
+  .pro div {
+    display: inline-block;
+    text-align: center;
+  }
+  .project-time {
+    background-color: rgb(2, 177, 252);
+    border-radius: 20px;
+    padding: 3px 10px;
+    color: #ffffff;
+    width: 60px;
+    margin-right: 250px;
+  }
+  .project-tittle {
+    text-align: left;
+  }
+
+  /*Phần Footer*/
+  .network {
+    display: grid;
+    grid-template-columns: repeat(1, 100%);
+    grid-template-rows: repeat(3, 33%);
+    text-align: left;
+  }
+  .net-1 {
+    height: 50px;
+    text-align: left;
+    margin-left: 20px;
+  }
+  .net-1 a {
+    text-decoration: none;
+    color: #333;
+    font-size: 17px;
+  }
+
+  .icon-facebook-circled,
+  .icon-linkedin-circled,
+  .icon-github-circled {
+    font-size: 150%;
+  }
+
+  .certificate-1,
+  .certificate-2 {
+    padding: 15px;
+    border-bottom: 1.5px solid #d6c08d;
+  }
+}

@@ -1,0 +1,111 @@
+@media screen and (max-width: 768px) {
+  section > .container {
+    width: 100%;
+    margin: 0px 15px;
+    border: 0px;
+    line-height: 1.5;
+  }
+  .section-title {
+    padding-top: 60px;
+    margin-left: 60px;
+    padding-bottom: 30px;
+  }
+  .nav-bar_0 {
+    display: none;
+  }
+  .img-cert {
+    width: 200px;
+  }
+  .banner {
+    min-height: 300px;
+  }
+  /*Chỉnh phần Tên vào giữa banner*/
+  .centered {
+    position: absolute;
+    color: #f7f7f7;
+    font-size: 1.5rem;
+    text-align: center;
+    top: 40%;
+    left: 40%;
+  }
+  .submit-email {
+    padding-left: 50px;
+    margin: 10px 0 20px 50px;
+  }
+  #info {
+    margin: 0 15px !important;
+  }
+  #course {
+    font-size: 14px;
+  }
+  .icon-user-1,
+  .icon-lamp {
+    font-size: 17px;
+    color: #7d7d7d;
+    padding-left: 15px;
+    display: inline-block;
+  }
+  .project-time {
+    background-color: rgb(2, 177, 252);
+    border-radius: 20px;
+    padding: 3px 10px;
+    color: #ffffff;
+    width: 60px;
+    display: inline-block;
+    vertical-align: top;
+  }
+  .pro-content {
+    display: inline-block;
+    text-align: start;
+  }
+  .pro div {
+    display: inline-block;
+    text-align: center;
+  }
+  .certificate-1 {
+    border-right: 1.5px solid #d6c08d;
+    border-bottom: 1.5px solid #d6c08d;
+    padding: 15px;
+  }
+  .certificate-2 {
+    padding: 15px;
+    border-bottom: 1.5px solid #d6c08d;
+  }
+  .project-tittle {
+    padding: 10px;
+    border: 1px solid #7d7d7d;
+    text-align: center;
+  }
+  /*Phần Footer*/
+  #footer .container {
+    text-align: center;
+    vertical-align: middle;
+  }
+  .network {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .net-1 {
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    vertical-align: middle;
+  }
+  .net-1 a {
+    text-decoration: none;
+    color: #333;
+    vertical-align: middle;
+    font-size: 17px;
+  }
+  .net-1 i {
+    vertical-align: middle;
+  }
+  .icon-facebook-circled,
+  .icon-linkedin-circled,
+  .icon-github-circled {
+    font-size: 180%;
+  }
+}
